@@ -1,7 +1,7 @@
 require 'formula'
 
 class Catkin < Formula
-  url 'git@github.com:ros/catkin.git', {:using => :git, :tag => 'upstream/0.4.5'}
+  url 'git@github.com:ros/catkin.git', {:using => :git, :tag => '0.4.5'}
   homepage 'http://www.ros.org/wiki/catkin'
   version '0.4.5'
 
