@@ -8,7 +8,7 @@ class Catkin < Formula
   depends_on LanguageModuleDependency.new :python, 'PyYAML', 'yaml'
   depends_on 'setuptools' => :python
   depends_on 'cmake'
-  depends_on 'EmPy' => :python
+  depends_on LanguageModuleDependency.new :python, 'EmPy', 'em'
   depends_on 'argparse' => :python
   depends_on 'nose' => :python
 
