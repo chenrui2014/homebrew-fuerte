@@ -11,7 +11,7 @@ class Catkin < Formula
   depends_on LanguageModuleDependency.new :python, 'EmPy', 'em'
   depends_on 'argparse' => :python
   depends_on 'nose' => :python
-
+  depends_on 'rospkg' => :python
 
 
   def install
