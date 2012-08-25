@@ -1,9 +1,9 @@
 require 'formula'
 
 class Catkin < Formula
-  url 'git://github.com/wg-debs/catkin.git', {:using => :git, :tag => 'upstream/0.3.28'}
+  url 'git@github.com:ros/catkin.git', {:using => :git, :tag => 'upstream/0.4.5'}
   homepage 'http://www.ros.org/wiki/catkin'
-  version '0.3.28'
+  version '0.4.5'
 
   depends_on LanguageModuleDependency.new :python, 'PyYAML', 'yaml'
   depends_on 'setuptools' => :python
