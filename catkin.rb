@@ -1,4 +1,3 @@
-
 require 'formula'
 
 class Catkin < Formula
@@ -11,7 +10,6 @@ class Catkin < Formula
   depends_on 'cmake'
   depends_on 'EmPy' => :python
   depends_on 'argparse' => :python
-  depends_on 'gtest'
   depends_on 'nose' => :python
 
 
