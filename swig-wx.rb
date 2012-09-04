@@ -6,12 +6,10 @@ class SwigWx < Formula
   homepage 'http://www.swig.org'
   version '1.3.29'
 
-
-
-
   def install
     ENV.universal_binary
     system "./configure --prefix=#{prefix}"
+    system "make"
     system "make install"
   end
 
